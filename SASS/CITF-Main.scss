@@ -1,0 +1,128 @@
+//-----------FONT VARIABLES ------------------------
+
+
+//---------- Here is where we will claim all the comon variables for the project----------
+$Color1: rgba(113,187,117,1);
+$Color2: black;
+
+//----------------  CONTENT ABOVE 1800px (Very large format screens  ie. retina displays))-------
+
+body {
+    background-image: url(../img/tree-background-test.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+@media (min-width: 1800px) {
+#container {
+		width: 1440px;
+		margin:0 auto;
+		height: 300px;
+		border: 4px solid black;
+}}
+
+@media (min-width: 1200px) {
+#container {
+        position: relative;
+		width: 100%;
+		margin:0 auto;
+}
+    
+#logIn {
+    position: absolute;
+    top:0;
+    right: 20px;
+    width:25%;
+    ul {
+        width: auto;
+        float: right;
+        display: block;
+    }
+    li {
+        display: inline-block;
+        float: right;
+        margin-right: 20px;
+        a {
+         font-size: .7em;   
+        }
+    }
+}
+    
+#navMain {
+		width: 100%;
+        display: block;
+        background-color: $Color2;
+        
+		ul{
+			width: 60%;
+			li {
+				width: auto;
+				display: inline-block;
+                font-family: roboto-thin,  sans-serif;                
+                font-size: 1.3em;
+                margin-left: 1%;
+			}
+			a {
+				text-decoration: none;
+                color: white;
+                padding: 15px 15px;
+                display: block;
+                &:hover {
+                    color: $Color1;
+                    }
+               }
+        }
+}
+
+.float {
+    position: relative;
+    top: 2em;
+    
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+
+}
+    
+.sticky {
+    position: fixed;
+	top: 0;
+    z-index: 5000;
+    width: 100%;
+    margin-bottom: 5em;
+}    
+    
+#placeholder {
+    height:1800px;
+    position: relative;
+    #leafNote {
+        position: absolute;
+        width: 35%;
+        left: 5%;
+        top:3em;
+    }
+    #noteText {
+        position: absolute;
+        width: 35%;
+        left: 40%;
+        top:3em;
+    }
+    p {
+        position: absolute;
+        top:4em;
+        margin-left: 50%;
+        font-size: 4em;
+        width: 30%;
+    }
+}
+
+#footContainer {
+    background-color: $Color2;
+    color:white;
+    padding: 40px;
+}    
+
+
+}

@@ -1,0 +1,92 @@
+body {
+  background-image: url(../img/tree-background-test.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+@media (min-width: 1800px) {
+  #container {
+    width: 1440px;
+    margin: 0 auto;
+    height: 300px;
+    border: 4px solid black; } }
+@media (min-width: 1200px) {
+  #container {
+    position: relative;
+    width: 100%;
+    margin: 0 auto; }
+
+  #logIn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: 25%; }
+    #logIn ul {
+      width: auto;
+      float: right;
+      display: block; }
+    #logIn li {
+      display: inline-block;
+      float: right;
+      margin-right: 20px; }
+      #logIn li a {
+        font-size: .7em; }
+
+  #navMain {
+    width: 100%;
+    display: block;
+    background-color: black; }
+    #navMain ul {
+      width: 60%; }
+      #navMain ul li {
+        width: auto;
+        display: inline-block;
+        font-family: roboto-thin,  sans-serif;
+        font-size: 1.3em;
+        margin-left: 1%; }
+      #navMain ul a {
+        text-decoration: none;
+        color: white;
+        padding: 15px 15px;
+        display: block; }
+        #navMain ul a:hover {
+          color: #71bb75; }
+
+  .float {
+    position: relative;
+    top: 2em;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px; }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    z-index: 5000;
+    width: 100%;
+    margin-bottom: 5em; }
+
+  #placeholder {
+    height: 1800px;
+    position: relative; }
+    #placeholder #leafNote {
+      position: absolute;
+      width: 35%;
+      left: 5%;
+      top: 3em; }
+    #placeholder #noteText {
+      position: absolute;
+      width: 35%;
+      left: 40%;
+      top: 3em; }
+    #placeholder p {
+      position: absolute;
+      top: 4em;
+      margin-left: 50%;
+      font-size: 4em;
+      width: 30%; }
+
+  #footContainer {
+    background-color: black;
+    color: white;
+    padding: 40px; } }
