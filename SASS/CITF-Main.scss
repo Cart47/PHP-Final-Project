@@ -27,14 +27,13 @@ body {
 #container {
         position: relative;
 		width: 100%;
-		margin:0 auto;
 }
     
 #logIn {
     position: absolute;
     top:0;
     right: 20px;
-    width:25%;
+    width:30%;
     ul {
         width: auto;
         float: right;
@@ -51,7 +50,6 @@ body {
 }
     
 #navMain {
-		width: 100%;
         display: block;
         background-color: $Color2;
         
@@ -61,7 +59,7 @@ body {
 				width: auto;
 				display: inline-block;
                 font-family: roboto-thin,  sans-serif;                
-                font-size: 1.3em;
+                font-size: 1em;
                 margin-left: 1%;
 			}
 			a {
@@ -79,6 +77,8 @@ body {
 .float {
     position: relative;
     top: 2em;
+    width: 85%;
+    margin: 0 auto;
     
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;

@@ -8,11 +8,9 @@
     
     //If vertical length is greater than the offset from the top, add class
 		if(navFixed > navPosition){
-			$('#navMain').addClass('sticky');
-           // $('#navMain').removeClass('float');
+			$('#navMain').switchClass("float", "sticky", 1000, "easeInOutQuad" );
 		}else{
-			$('#navMain').removeClass('sticky');
-            //$('#navMain').addClass('float');
+			$('#navMain').switchClass("sticky", "float", 1000, "easeInOutQuad" );
 		}
 	};
 
