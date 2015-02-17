@@ -31,19 +31,19 @@
 		<head> 
             <div id="headMain">
                 <?php
-                    include_once('HeaderMain.php');
-                    include_once('NavigationMain.php');
+                    include_once('components/HeaderMain.php');
+                    include_once('components/NavigationMain.php');
                 ?>
              </div>
          </head>
          <main>
             <?php
-                include_once('mainContent.php');
+                include_once('components/mainContent.php');
             ?>
         </main>
         <footer>
             <?php
-                include_once('FooterMain.php');
+                include_once('components/FooterMain.php');
             ?>
         </footer>	 
 	 </div> <!-- closing div for container -->
