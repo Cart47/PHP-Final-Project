@@ -54,7 +54,7 @@ body {
         background-color: $Color2;
         
 		ul{
-			width: 60%;
+			width: 70%;
 			li {
 				width: auto;
 				display: inline-block;
@@ -76,7 +76,9 @@ body {
 
 .float {
     position: relative;
-    top: 2em;
+}
+    
+.floatStyle {
     width: 85%;
     margin: 0 auto;
     
@@ -84,22 +86,28 @@ body {
     -moz-border-radius: 40px;
     border-radius: 40px;
 
-}
+}    
     
 .sticky {
     position: fixed;
 	top: 0;
     z-index: 5000;
+} 
+    
+.stickyStyle {
     width: 100%;
-    margin-bottom: 5em;
-}    
+    
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}      
     
 #placeholder {
-    height:1800px;
+    padding-top: 500px;
     position: relative;
     #leafNote {
         position: absolute;
-        width: 35%;
+        width: 20%;
         left: 5%;
         top:3em;
     }
@@ -111,13 +119,19 @@ body {
     }
     p {
         position: absolute;
-        top:4em;
+        top:9em;
         margin-left: 50%;
-        font-size: 4em;
+        font-size: 2em;
         width: 30%;
     }
 }
 
+#mainContent {
+     height:70em;
+    padding: 10em;
+}
+    
+    
 #footContainer {
     background-color: $Color2;
     color:white;

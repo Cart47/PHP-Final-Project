@@ -8,10 +8,12 @@
     
     //If vertical length is greater than the offset from the top, add class
 		if(navFixed > navPosition){
-			$('#navMain').switchClass("float", "sticky", 400, "easeInOutQuad" );
-		}else{
-			$('#navMain').switchClass("sticky", "float", 400, "easeInOutQuad" );
-		}
+			$('#navMain').switchClass("floatStyle", "stickyStyle", 1000, "easeOutSine" );
+            $('#navMain').addClass("sticky");
+		} else if (navFixed < navPosition){
+            $("#navMain").removeClass("sticky");
+            $('#navMain').switchClass("stickyStyle", "floatStyle", 400, "linear" );
+        } 
 	};
 
 	//Calls the function when window scrolling event occurs

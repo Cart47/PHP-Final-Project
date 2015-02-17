@@ -35,7 +35,7 @@ body {
     display: block;
     background-color: black; }
     #navMain ul {
-      width: 60%; }
+      width: 70%; }
       #navMain ul li {
         width: auto;
         display: inline-block;
@@ -51,8 +51,9 @@ body {
           color: #71bb75; }
 
   .float {
-    position: relative;
-    top: 2em;
+    position: relative; }
+
+  .floatStyle {
     width: 85%;
     margin: 0 auto;
     -webkit-border-radius: 40px;
@@ -62,16 +63,20 @@ body {
   .sticky {
     position: fixed;
     top: 0;
-    z-index: 5000;
+    z-index: 5000; }
+
+  .stickyStyle {
     width: 100%;
-    margin-bottom: 5em; }
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px; }
 
   #placeholder {
-    height: 1800px;
+    padding-top: 500px;
     position: relative; }
     #placeholder #leafNote {
       position: absolute;
-      width: 35%;
+      width: 20%;
       left: 5%;
       top: 3em; }
     #placeholder #noteText {
@@ -81,10 +86,14 @@ body {
       top: 3em; }
     #placeholder p {
       position: absolute;
-      top: 4em;
+      top: 9em;
       margin-left: 50%;
-      font-size: 4em;
+      font-size: 2em;
       width: 30%; }
+
+  #mainContent {
+    height: 70em;
+    padding: 10em; }
 
   #footContainer {
     background-color: black;
