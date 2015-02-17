@@ -1,0 +1,27 @@
+@import "_variables.scss";
+
+//-----Desktop style --------------------//
+@media screen and (max-width:1799px) {
+
+#footContainer {
+    background-color: black;
+    color:white;
+    padding: 40px;
+}     
+    
+}
+
+//----- Tablet Landscape style --------------------//
+@media screen and (max-width:1025px) {
+    
+}
+
+//-----Tablet Portrait style --------------------//
+@media screen and (max-width:769px) {
+    
+}
+
+//-----Smart Phone style --------------------//
+@media screen and (max-width:720px) {
+    
+}

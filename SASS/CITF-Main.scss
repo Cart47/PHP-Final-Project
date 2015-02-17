@@ -1,140 +1,42 @@
-//-----------FONT VARIABLES ------------------------
-
-
-//---------- Here is where we will claim all the comon variables for the project----------
-$Color1: rgba(113,187,117,1);
-$Color2: black;
+@import "_variables.scss";
 
 //----------------  CONTENT ABOVE 1800px (Very large format screens  ie. retina displays))-------
-
-body {
-    background-image: url(../img/tree-background-test.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: roboto, raleway, sans-serif;
-}
-
-
 @media (min-width: 1800px) {
 #container {
 		width: 1440px;
 		margin:0 auto;
 }}
 
+//-----Desktop style --------------------//
 @media screen and (max-width:1799px) {
+body {
+    background-image: url(../img/tree-background-test.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: roboto, raleway, sans-serif;
+}    
+    
 #container {
         position: relative;
 		width: 100%;
-}
-   
-#logIn {
-    position: absolute;
-    top:0;
-    right: 20px;
-    width:30%;
-    ul {
-        width: auto;
-        float: right;
-        display: block;
-    }
-    li {
-        display: inline-block;
-        float: right;
-        margin-right: 20px;
-        a {
-         font-size: .7em;   
-        }
-    }
-}
-    
-#navMain {
-        display: block;
-        background-color: $Color2;
-		ul{
-			width: 70%;
-			li {
-				width: auto;
-				display: inline-block;
-                font-family: roboto-thin,  sans-serif;                
-                font-size: 1em;
-                margin-left: 1%;
-			}
-			a {
-				text-decoration: none;
-                color: white;
-                padding: 15px 15px;
-                display: block;
-                &:hover {
-                    color: $Color1;
-                    }
-               }
-        }
-}
-
-.float {
-    position: relative;
-}
-    
-.floatStyle {
-    width: 85%;
-    margin: 0 auto;
-    
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    border-radius: 40px;
-
-}    
-    
-.sticky {
-    position: fixed;
-	top: 0;
-    z-index: 5000;
 } 
-    
-.stickyStyle {
-    width: 100%;
-    
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    border-radius: 0px;
-}      
-    
-#headMain {
-    padding-top: 500px;
-    position: relative;
-    #leafNote {
-        position: absolute;
-        width: 20%;
-        left: 5%;
-        top:3em;
-    }
-    #noteText {
-        position: absolute;
-        width: 35%;
-        left: 40%;
-        top:3em;
-    }
-    p {
-        position: absolute;
-        top:9em;
-        margin-left: 50%;
-        font-size: 2em;
-        width: 30%;
-    }
 }
 
-#mainContent {
-    height:70em;
-    padding: 10em;
+//-----Tablet Landscape style --------------------//
+@media screen and (max-width:1025px) {
+ 
+    
+    
 }
-    
-    
-#footContainer {
-    background-color: $Color2;
-    color:white;
-    padding: 40px;
-}    
 
 
+//-----Tablet Portrait style --------------------//
+@media screen and (max-width:769px) {
+    
+}
+
+//-----Smart Phone style --------------------//
+@media screen and (max-width:720px) {
+    
 }

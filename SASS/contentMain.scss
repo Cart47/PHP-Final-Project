@@ -1,0 +1,26 @@
+@import "_variables.scss";
+
+//-----Desktop style --------------------//
+@media screen and (max-width:1799px) {
+
+#mainContent {
+    height:70em;
+    padding: 10em;
+}    
+    
+}
+
+//----- Tablet Landscape style --------------------//
+@media screen and (max-width:1025px) {
+    
+}
+
+//-----Tablet Portrait style --------------------//
+@media screen and (max-width:769px) {
+    
+}
+
+//-----Smart Phone style --------------------//
+@media screen and (max-width:720px) {
+    
+}

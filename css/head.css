@@ -1,0 +1,20 @@
+@media screen and (max-width: 1799px) {
+  #headMain {
+    padding-top: 500px;
+    position: relative; }
+    #headMain #leafNote {
+      position: absolute;
+      width: 20%;
+      left: 5%;
+      top: 3em; }
+    #headMain #noteText {
+      position: absolute;
+      width: 35%;
+      left: 40%;
+      top: 3em; }
+    #headMain p {
+      position: absolute;
+      top: 9em;
+      margin-left: 50%;
+      font-size: 2em;
+      width: 30%; } }

@@ -1,0 +1,92 @@
+@import "_variables.scss";
+//-----Desktop style --------------------//
+@media screen and (max-width:1799px) {
+  
+#logIn {
+    position: absolute;
+    top:0;
+    right: 20px;
+    width:30%;
+    ul {
+        width: auto;
+        float: right;
+        display: block;
+    }
+    li {
+        display: inline-block;
+        float: right;
+        margin-right: 20px;
+        a {
+         font-size: .7em;   
+        }
+    }
+}
+    
+#navMain {
+        display: block;
+        background-color: $Color2;
+		ul{
+			width: 70%;
+			li {
+				width: auto;
+				display: inline-block;
+                font-family: roboto-thin,  sans-serif;                
+                font-size: 1em;
+                margin-left: 1%;
+			}
+			a {
+				text-decoration: none;
+                color: white;
+                padding: 15px 15px;
+                display: block;
+                &:hover {
+                    color: $Color1;
+                    }
+               }
+        }
+}
+
+.float {
+    position: relative;
+}
+    
+.floatStyle {
+    width: 85%;
+    margin: 0 auto;
+    
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+
+}    
+    
+.sticky {
+    position: fixed;
+	top: 0;
+    z-index: 5000;
+} 
+    
+.stickyStyle {
+    width: 100%;
+    
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}    
+    
+}
+
+//----- Tablet Landscape style --------------------//
+@media screen and (max-width:1025px) {
+    
+}
+
+//-----Tablet Portrait style --------------------//
+@media screen and (max-width:769px) {
+    
+}
+
+//-----Smart Phone style --------------------//
+@media screen and (max-width:720px) {
+    
+}

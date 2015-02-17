@@ -1,19 +1,4 @@
-body {
-  background-image: url(../img/tree-background-test.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  font-family: roboto, raleway, sans-serif; }
-
-@media (min-width: 1800px) {
-  #container {
-    width: 1440px;
-    margin: 0 auto; } }
 @media screen and (max-width: 1799px) {
-  #container {
-    position: relative;
-    width: 100%; }
-
   #logIn {
     position: absolute;
     top: 0;
@@ -68,33 +53,4 @@ body {
     width: 100%;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
-    border-radius: 0px; }
-
-  #headMain {
-    padding-top: 500px;
-    position: relative; }
-    #headMain #leafNote {
-      position: absolute;
-      width: 20%;
-      left: 5%;
-      top: 3em; }
-    #headMain #noteText {
-      position: absolute;
-      width: 35%;
-      left: 40%;
-      top: 3em; }
-    #headMain p {
-      position: absolute;
-      top: 9em;
-      margin-left: 50%;
-      font-size: 2em;
-      width: 30%; }
-
-  #mainContent {
-    height: 70em;
-    padding: 10em; }
-
-  #footContainer {
-    background-color: black;
-    color: white;
-    padding: 40px; } }
+    border-radius: 0px; } }

@@ -1,0 +1,45 @@
+@import "_variables.scss";
+//-----Desktop style --------------------//
+@media screen and (max-width:1799px) {
+  
+#headMain {
+    padding-top: 500px;
+    position: relative;
+    #leafNote {
+        position: absolute;
+        width: 20%;
+        left: 5%;
+        top:3em;
+    }
+    #noteText {
+        position: absolute;
+        width: 35%;
+        left: 40%;
+        top:3em;
+    }
+    p {
+        position: absolute;
+        top:9em;
+        margin-left: 50%;
+        font-size: 2em;
+        width: 30%;
+    }
+}    
+    
+    
+}
+
+//----- Tablet Landscape style --------------------//
+@media screen and (max-width:1025px) {
+    
+}
+
+//-----Tablet Portrait style --------------------//
+@media screen and (max-width:769px) {
+    
+}
+
+//-----Smart Phone style --------------------//
+@media screen and (max-width:720px) {
+    
+}
