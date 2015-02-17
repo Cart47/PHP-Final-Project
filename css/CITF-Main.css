@@ -10,11 +10,11 @@ body {
     margin: 0 auto;
     height: 300px;
     border: 4px solid black; } }
-@media (min-width: 1200px) {
+@media (max-width: 1799px) {
   #container {
     position: relative;
-    width: 100%; }
-
+    width: 100%; } }
+@media (min-width: 1200px) {
   #logIn {
     position: absolute;
     top: 0;
@@ -71,20 +71,20 @@ body {
     -moz-border-radius: 0px;
     border-radius: 0px; }
 
-  #placeholder {
+  #headMain {
     padding-top: 500px;
     position: relative; }
-    #placeholder #leafNote {
+    #headMain #leafNote {
       position: absolute;
       width: 20%;
       left: 5%;
       top: 3em; }
-    #placeholder #noteText {
+    #headMain #noteText {
       position: absolute;
       width: 35%;
       left: 40%;
       top: 3em; }
-    #placeholder p {
+    #headMain p {
       position: absolute;
       top: 9em;
       margin-left: 50%;
