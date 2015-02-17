@@ -12,6 +12,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: roboto, raleway, sans-serif;
 }
 
 
@@ -19,18 +20,14 @@ body {
 #container {
 		width: 1440px;
 		margin:0 auto;
-		height: 300px;
-		border: 4px solid black;
 }}
 
-@media (max-width:1799px) {
+@media screen and (max-width:1799px) {
 #container {
         position: relative;
 		width: 100%;
-}}
-
-@media (min-width: 1200px) {
-    
+}
+   
 #logIn {
     position: absolute;
     top:0;
