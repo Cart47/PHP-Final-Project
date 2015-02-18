@@ -1,7 +1,7 @@
 @import "_variables.scss";
 
 //----------------  CONTENT ABOVE 1800px (Very large format screens  ie. retina displays))-------
-@media (min-width: 1800px) {
+@media screen and (max-width: 1800px) {
 #container {
 		width: 1440px;
 		margin:0 auto;
@@ -18,25 +18,129 @@ body {
 }    
     
 #container {
-        position: relative;
-		width: 100%;
-} 
+    position: relative;
+    width: 100%;
+}
+    
+#headMain {
+    padding-top: 500px;
+    position: relative;
+    display: block;
+}
+
+nav {
+    position: relative;
+    display: block;
+}
+    
+main {
+    position: relative;
+    display: block;
+}
+    
+footer {
+    position: relative;
+    display: block;
+}    
+    
 }
 
 //-----Tablet Landscape style --------------------//
 @media screen and (max-width:1025px) {
  
-    
+#headMain {
+    width:80%;
+    overflow-x: hidden;
+    left:20%;
     
 }
 
+nav {
+    position: fixed;
+    height: 100%;
+    left:0;
+    top:0;
+    width:20%;
+}
+    
+main {
+    width:80%;
+    overflow-x: hidden;
+    left:20%;
+}
+    
+footer {
+    visibility: hidden;
+}    
+}
 
 //-----Tablet Portrait style --------------------//
-@media screen and (max-width:769px) {
+@media screen and (max-width:900px) {
+
+#headMain {
+    visibility:visible;
+    position: relative;
+    top:4.25em;
+    left:0;
+    width:100%;
+    overflow-x: visible;
+}
+
+nav {
+    height:auto;
+    left:0;
+    top:0;
+    width:100%;
+    display: block;
+}
+    
+main {
+    position: relative;
+    width:100%;
+    overflow-x:visible;
+    top:4.25em;
+    left:0%;
+}
+    
+footer {
+    visibility: visible;
+}    
     
 }
 
 //-----Smart Phone style --------------------//
 @media screen and (max-width:720px) {
+#headMain {
+    visibility:visible;
+    position: relative;
+    top:4.25em;
+    left:0;
+    width:100%;
+    overflow-x: visible;
+    border:2px solid yellow;
+}
+
+nav {
+    height:auto;
+    left:0;
+    top:0;
+    width:100%;
+    display: block;
+    border: 2px blue solid;
+}
+    
+main {
+    position: relative;
+    width:100%;
+    overflow-x:visible;
+    top:4.25em;
+    left:0%;
+    border: 2px solid orange;
+}
+    
+footer {
+    visibility: visible;
+    border: 2px solid red;
+} 
     
 }

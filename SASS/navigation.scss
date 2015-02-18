@@ -1,48 +1,51 @@
 @import "_variables.scss";
 //-----Desktop style --------------------//
 @media screen and (max-width:1799px) {
-  
-#logIn {
-    position: absolute;
-    top:0;
-    right: 20px;
-    width:30%;
-    ul {
-        width: auto;
-        float: right;
-        display: block;
-    }
-    li {
-        display: inline-block;
-        float: right;
-        margin-right: 20px;
-        a {
-         font-size: .7em;   
-        }
-    }
-}
     
 #navMain {
         display: block;
         background-color: $Color2;
+        img {
+            position: absolute;
+            visibility: hidden;
+        }
 		ul{
 			width: 70%;
 			li {
 				width: auto;
 				display: inline-block;
                 font-family: roboto-thin,  sans-serif;                
-                font-size: 1em;
+                font-size: .9em;
                 margin-left: 1%;
 			}
 			a {
 				text-decoration: none;
                 color: white;
-                padding: 15px 15px;
+                padding: 1em;
                 display: block;
                 &:hover {
                     color: $Color1;
                     }
                }
+        }
+        #logIn {
+            position: absolute;
+            top:10%;
+            right: 1.25em;
+            width:20%;
+            ul {
+                width: 100%;
+                float: right;
+                display: block;
+            }
+            li {
+                display: inline-block;
+                float: right;
+                margin-right: 20px;
+                a {
+                 font-size: .8em;   
+                }
+            }
         }
 }
 
@@ -54,9 +57,9 @@
     width: 85%;
     margin: 0 auto;
     
-    -webkit-border-radius: 40px;
-    -moz-border-radius: 40px;
-    border-radius: 40px;
+    -webkit-border-radius: 2.5em;
+    -moz-border-radius: 2.5em;
+    border-radius: 2.5em;
 
 }    
     
@@ -78,11 +81,168 @@
 
 //----- Tablet Landscape style --------------------//
 @media screen and (max-width:1025px) {
+ 
+#navMain {
+        display: block;
+        height: 100%;
+        background-color: $Color2;
+        border-right: 2px solid white;
+        img:nth-child(2) {
+            margin-top:0.5em;
+            width: 60%;
+            margin-left:19%;
+            margin-bottom: 1em;
+        }
+        img {
+            margin-top:1em;
+            margin-left:2.5%;
+            width:94%;
+            visibility: visible;
+            position: static;
+        }
+		ul{
+			width: 100%;
+            align-content: center;
+            overflow-x: hidden;
+			li {
+				width: 100%;
+                font-family: roboto-thin,  sans-serif;                
+                font-size: .8em;
+                border-bottom: .1em solid white;
+			}
+            li:first-child{
+            border-top:.1em solid white;
+            }
+			a {
+				text-decoration: none;
+                color: white;
+                padding: 1.4em 25%;
+                display: block;
+                &:hover {
+                    color: $Color1;
+                    }
+               }
+        }
+        #logIn {
+            visibility: hidden;
+            position: absolute;
+            overflow-y: hidden;
+            top:0;
+            left:0;
+            width:0;
+            ul {
+                width: 100%;
+                float: right;
+                display: block;
+            }
+            li {
+                display: inline-block;
+                float: right;
+                margin-right: 20px;
+                a {
+                 font-size: .7em;   
+                }
+            }
+        }
+}
+
+.float {
+    position: fixed;
+}
+    
+.floatStyle {
+    width: 20%;
+    
+    
+    -webkit-border-radius: 0em;
+    -moz-border-radius: 0em;
+    border-radius: 0em;
+
+}    
+    
+.sticky {
+
+} 
+    
+.stickyStyle {
+    width: 20%;
+}      
     
 }
 
 //-----Tablet Portrait style --------------------//
-@media screen and (max-width:769px) {
+@media screen and (max-width:900px) {
+
+#navMain {
+    display: block;
+    height: auto;
+    width:100%;
+    background-color: $Color2;
+    img:nth-child(2) {
+        visibility: hidden;
+        margin-top:0;
+        width: 0;
+        margin-left:0;
+        margin-bottom:0;
+    }
+    img {
+        margin-top:.3em;
+        margin-left:2%;
+        width:12em;
+        visibility: visible;
+        position: static;
+        float: left;
+    }
+    ul{
+        position: relative;
+        width: auto;
+        right:0;
+        float: right;
+        li {
+            float: right;
+            width: auto;
+            height:100%;
+            border-bottom: 0;
+            display: inline-block;               
+            font-size: .75em;
+            margin-left: 0;
+            border-left: 2px solid white;
+        }
+        li:first-child{
+            border-top:0;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            padding:2.5em 1em;
+            &:hover {
+                color: $Color1;
+                }
+           }
+        }
+    #logIn {
+        visibility: hidden;
+        position: absolute;
+        overflow-y: hidden;
+        top:0;
+        left:0;
+        width:0;
+        ul {
+            width: 100%;
+            float: right;
+            display: block;
+        }
+        li {
+            display: inline-block;
+            float: right;
+            margin-right: 20px;
+            vertical-align: middle;
+            a {
+             font-size: .7em;   
+            }
+        }
+    }
+}
     
 }
 

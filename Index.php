@@ -15,27 +15,27 @@
     
     <!-- Need to revisit to add in php that determines the associated styles needed and sources them out -->
     <link rel="stylesheet" href="css/Reset.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
     <link rel="stylesheet" href="css/CITF-Main.css" type="text/css">
     <?php
         include_once('css/style.php');
         new Stylesheet('contentMain');
     ?> 
-   <!-- 
-    <link rel="stylesheet" href="css/head.css" type="text/css">
-    <link rel="stylesheet" href="css/navigation.css" type="text/css">
-    <link rel="stylesheet" href="css/contentMain.css" type="text/css">
-    <link rel="stylesheet" href="css/foot.css" type="text/css"> -->
  </head>
  <body>
 	 <div id="container">
-		<head> 
+		<header> 
             <div id="headMain">
                 <?php
                     include_once('components/HeaderMain.php');
-                    include_once('components/NavigationMain.php');
                 ?>
              </div>
-         </head>
+             <nav>
+               <?php
+                    include_once('components/NavigationMain.php');
+                ?>
+             </nav>
+         </header>
          <main>
             <?php
                 include_once('components/mainContent.php');
