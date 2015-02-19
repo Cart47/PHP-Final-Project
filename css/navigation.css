@@ -11,7 +11,7 @@
         width: auto;
         display: inline-block;
         font-family: roboto-thin,  sans-serif;
-        font-size: .9em;
+        font-size: 1.1em;
         margin-left: 1%; }
       #navMain ul a {
         text-decoration: none;
@@ -142,6 +142,67 @@
     #navMain ul {
       position: relative;
       width: auto;
+      right: 0;
+      float: right; }
+      #navMain ul li {
+        float: right;
+        width: auto;
+        height: 100%;
+        border-bottom: 0;
+        display: inline-block;
+        font-size: .75em;
+        margin-left: 0;
+        border-left: 2px solid white; }
+      #navMain ul li:first-child {
+        border-top: 0; }
+      #navMain ul a {
+        text-decoration: none;
+        color: white;
+        padding: 2.5em 1em; }
+        #navMain ul a:hover {
+          color: #71bb75; }
+    #navMain #logIn {
+      visibility: hidden;
+      position: absolute;
+      overflow-y: hidden;
+      top: 0;
+      left: 0;
+      width: 0; }
+      #navMain #logIn ul {
+        width: 100%;
+        float: right;
+        display: block; }
+      #navMain #logIn li {
+        display: inline-block;
+        float: right;
+        margin-right: 20px;
+        vertical-align: middle; }
+        #navMain #logIn li a {
+          font-size: .7em; } }
+@media screen and (max-width: 720px) {
+  #navMain {
+    position: static;
+    display: block;
+    height: 5em;
+    width: 100%;
+    background-color: black; }
+    #navMain img:nth-child(2) {
+      visibility: hidden;
+      margin-top: 0;
+      width: 0;
+      margin-left: 0;
+      margin-bottom: 0; }
+    #navMain img {
+      margin-top: .3em;
+      margin-left: 2%;
+      width: 12em;
+      visibility: visible;
+      position: static;
+      float: left; }
+    #navMain ul {
+      position: relative;
+      width: .1%;
+      height: 0.1%;
       right: 0;
       float: right; }
       #navMain ul li {

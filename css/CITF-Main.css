@@ -79,28 +79,25 @@
   #headMain {
     visibility: visible;
     position: relative;
-    top: 4.25em;
+    top: 5em;
     left: 0;
     width: 100%;
-    overflow-x: visible;
-    border: 2px solid yellow; }
+    overflow-x: visible; }
 
   nav {
+    position: relative;
     height: auto;
     left: 0;
-    top: 0;
+    top: -31.5em;
     width: 100%;
-    display: block;
-    border: 2px blue solid; }
+    display: block; }
 
   main {
     position: relative;
     width: 100%;
     overflow-x: visible;
-    top: 4.25em;
-    left: 0%;
-    border: 2px solid orange; }
+    top: 0;
+    left: 0%; }
 
   footer {
-    visibility: visible;
-    border: 2px solid red; } }
+    visibility: visible; } }

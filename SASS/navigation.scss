@@ -15,7 +15,7 @@
 				width: auto;
 				display: inline-block;
                 font-family: roboto-thin,  sans-serif;                
-                font-size: .9em;
+                font-size: 1.1em;
                 margin-left: 1%;
 			}
 			a {
@@ -248,5 +248,78 @@
 
 //-----Smart Phone style --------------------//
 @media screen and (max-width:720px) {
+ 
+#navMain {
+    position: static;
+    display: block;
+    height: 5em;
+    width:100%;
+    background-color: $Color2;
+    img:nth-child(2) {
+        visibility: hidden;
+        margin-top:0;
+        width: 0;
+        margin-left:0;
+        margin-bottom:0;
+    }
+    img {
+        margin-top:.3em;
+        margin-left:2%;
+        width:12em;
+        visibility: visible;
+        position: static;
+        float: left;
+    }
+    ul{
+        position: relative;
+        width: .1%;
+        height: 0.1%;
+        right:0;
+        float: right;
+        li {
+            float: right;
+            width: auto;
+            height:100%;
+            border-bottom: 0;
+            display: inline-block;               
+            font-size: .75em;
+            margin-left: 0;
+            border-left: 2px solid white;
+        }
+        li:first-child{
+            border-top:0;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            padding:2.5em 1em;
+            &:hover {
+                color: $Color1;
+                }
+           }
+        }
+    #logIn {
+        visibility: hidden;
+        position: absolute;
+        overflow-y: hidden;
+        top:0;
+        left:0;
+        width:0;
+        ul {
+            width: 100%;
+            float: right;
+            display: block;
+        }
+        li {
+            display: inline-block;
+            float: right;
+            margin-right: 20px;
+            vertical-align: middle;
+            a {
+             font-size: .7em;   
+            }
+        }
+    }
+}    
     
 }
