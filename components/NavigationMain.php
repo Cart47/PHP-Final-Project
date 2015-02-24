@@ -8,7 +8,8 @@
         <li><a href="#">Camping</a></li>
         <li><a href="#">Schedule</a></li>
         <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>	 
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Donate</a></li>
     </ul>
     <div id="logIn">
         <ul>
