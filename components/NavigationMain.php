@@ -3,12 +3,12 @@
     <img src="img/CITF-textLogo-white.png" />
     <img src="img/ChorusLogo-white.png" />
     <ul id="links">
-        <li><a href="#">About the Event</a></li>
-        <li><a href="#">The Lineup</a></li>
-        <li><a href="#">Camping</a></li>
-        <li><a href="#">Schedule</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>	 
+        <li><a href="#">Tickets & Accommodations</a></li>
+        <li><a href="#">Lineup</a></li>
+        <li><a href="#">Festival Info</a></li>
+        <li><a href="#">Get Involved</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Donate</a></li>	 
     </ul>
     <div id="logIn">
         <ul>
