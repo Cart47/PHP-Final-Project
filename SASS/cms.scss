@@ -1,0 +1,128 @@
+@import "_variables.scss";
+
+/*** Header ***/
+
+#header-container {
+	background-color: #019ab8;
+	height: 40px;
+	right: 0;
+	left: 0;
+	position: fixed;
+}
+
+#date {
+	color: #fff;
+	padding: 15px;
+	margin: 0px 20px;
+	float: left;
+	font-size: 0.75em;
+}
+
+#cms-top-nav li a {
+	float: left;
+	font-size: 0.85em;
+	list-style: none;
+	display: inline;
+	padding: 12px 0px 12px 20px;
+	margin-left: 5px;
+	text-decoration: none;
+	color: #fff;
+}
+
+#cms-top-nav li a:hover {
+
+}
+
+#user {
+	float: right;
+	color: #fff;
+	padding: 13px 20px;
+	font-size: 0.85em;
+}
+
+#sign-out {
+	float: right;
+	background-color: #fff;
+	padding: 11px 20px;
+	border: 1px solid #019ab8;
+}
+
+#sign-out a {
+	text-decoration: none;
+}
+
+/*** Left Menu ***/
+
+#logo {
+	float: left;
+	margin-top: 60px;
+	margin-left: 20px;
+	margin-right: 20px;
+	position: absolute;
+}
+
+#logo img {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#left-menu {
+	clear: both;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	width: 250px;
+	border-right: 1px solid #ddd;
+}
+
+#cms-left-nav {
+	margin-top: 140px;
+	position: absolute;
+	width: 100%;
+}
+
+.left-mnu-itm {
+	display: block;
+	padding: 10px 20px;
+	border-top: 1px solid #ddd;
+	font-size: 0.85em;
+    font-family: $font1;
+	text-decoration: none;
+}
+
+.left-mnu-itm:last-child {
+	border-bottom: 1px solid #ddd;
+
+}
+
+.fa {
+	padding-right: 15px;
+}
+
+.fa-plus,
+.fa-external-link {
+	padding-right: 5px;
+}
+
+/*** Footer ***/
+
+#cms-footer {
+	clear: both;
+	background-color: #ddd;
+	padding: 20px;
+	position: absolute;
+	font-size: 0.75em;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+
+
+
+
+
+
+
+
