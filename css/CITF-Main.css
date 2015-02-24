@@ -1,18 +1,18 @@
-@media screen and (max-width: 1800px) {
+@media screen and (min-width: 1800px) {
   #container {
     width: 1440px;
     margin: 0 auto; } }
 @media screen and (max-width: 1799px) {
+  #container {
+    position: relative;
+    width: 100%; } }
+@media screen and (min-width: 1026px) {
   body {
-    background-image: url(../img/tree-background-test.jpg);
+    background-image: url(../img/tree-back.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     font-family: roboto, raleway, sans-serif; }
-
-  #container {
-    position: relative;
-    width: 100%; }
 
   #headMain {
     padding-top: 500px;

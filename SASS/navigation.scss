@@ -1,6 +1,6 @@
 @import "_variables.scss";
 //-----Desktop style --------------------//
-@media screen and (max-width:1799px) {
+@media screen and (min-width:1026px) {
     
 #navMain {
         display: block;
@@ -14,7 +14,7 @@
 			li {
 				width: auto;
 				display: inline-block;
-                font-family: roboto-thin,  sans-serif;                
+                font-family: $font1;               
                 font-size: 1.1em;
                 margin-left: 1%;
 			}
@@ -106,7 +106,7 @@
             overflow-x: hidden;
 			li {
 				width: 100%;
-                font-family: roboto-thin,  sans-serif;                
+                font-family: $font1;               
                 font-size: .8em;
                 border-bottom: .1em solid white;
 			}

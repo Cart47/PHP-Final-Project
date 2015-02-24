@@ -1,4 +1,4 @@
-@media screen and (max-width: 1799px) {
+@media screen and (min-width: 1026px) {
   #navMain {
     display: block;
     background-color: black; }
@@ -10,7 +10,7 @@
       #navMain ul li {
         width: auto;
         display: inline-block;
-        font-family: roboto-thin,  sans-serif;
+        font-family: roboto, raleway, sans-serif;
         font-size: 1.1em;
         margin-left: 1%; }
       #navMain ul a {
@@ -79,7 +79,7 @@
       overflow-x: hidden; }
       #navMain ul li {
         width: 100%;
-        font-family: roboto-thin,  sans-serif;
+        font-family: roboto, raleway, sans-serif;
         font-size: .8em;
         border-bottom: .1em solid white; }
       #navMain ul li:first-child {

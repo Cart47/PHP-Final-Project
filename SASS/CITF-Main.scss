@@ -1,26 +1,27 @@
 @import "_variables.scss";
 
 //----------------  CONTENT ABOVE 1800px (Very large format screens  ie. retina displays))-------
-@media screen and (max-width: 1800px) {
+@media screen and (min-width: 1800px) {
 #container {
 		width: 1440px;
 		margin:0 auto;
 }}
 
-//-----Desktop style --------------------//
-@media screen and (max-width:1799px) {
-body {
-    background-image: url(../img/tree-background-test.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    font-family: roboto, raleway, sans-serif;
-}    
-    
+
+@media screen and (max-width: 1799px) {
 #container {
     position: relative;
     width: 100%;
-}
+}}
+//-----Desktop style --------------------//
+@media screen and (min-width:1026px) {
+body {
+    background-image: url(../img/tree-back.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: $font1
+}    
     
 #headMain {
     padding-top: 500px;

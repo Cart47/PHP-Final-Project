@@ -12,8 +12,7 @@
     </ul>
     <div id="logIn">
         <ul>
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Register</a></li>
+            <li><a href="#">Login/Register</a></li>
         </ul>
     </div>
 </div>

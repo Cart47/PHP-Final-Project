@@ -1,4 +1,4 @@
-@media screen and (max-width: 1799px) {
+@media screen and (min-width: 1026px) {
   #footContainer {
     background-color: black;
     color: white;
