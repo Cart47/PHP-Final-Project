@@ -3,7 +3,8 @@
 	<head>	
 		<link href='http://fonts.googleapis.com/css?family=Merriweather:400,400italic,700,700italic,900,900italic,300,300italic' rel='stylesheet' type='text/css'>
 		
-        
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/Reset.css" type="text/css">
 		<link rel="stylesheet" href="css/cms.css">
 
 		<meta charset="utf-8" />
